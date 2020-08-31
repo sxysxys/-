@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <com.shen.shengeunion.ui.custom.LoadingView
+        android:id="@+id/loading_circle"
+        android:layout_width="@dimen/dp_33"
+        android:layout_height="@dimen/dp_33"
+        />
+
+
+    <TextView
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loading"
+        android:textSize="@dimen/dp_10"/>
+
+</LinearLayout>

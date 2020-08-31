@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff5a623</color>
+    <color name="colorAccent">#fff5a623</color>
+    <color name="colorPrimaryDark">#fff5a623</color>
+    <color name="colorPageBg">#EFEEEE</color>
+    <color name="color_tao">#4A4A4A</color>
+    <color name="selected_background_color">#EFEEEE</color>
+    <color name="no_selected_background_color">#FFFFFF</color>
+    <color name="text_content">#4A4A4A</color>
+</resources>

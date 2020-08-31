@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:gravity="center"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="取消"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginRight="@dimen/dp_5"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/dp_9"
+            />
+
+<!--需要让点击edit框后，弹出的键盘右下角变成搜索的按钮，只用imeOptions和singleline-->
+        <EditText
+            android:id="@+id/search_box"
+            android:imeOptions="actionSearch"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_centerVertical="true"
+            android:focusable="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@id/search_btn"
+            android:background="@drawable/shape_edit_box_bg"
+            android:hint="@string/search_text_cover"
+            android:paddingLeft="@dimen/dp_10"
+            android:singleLine="true"
+            android:paddingRight="@dimen/dp_10"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/search_clean"
+            android:layout_width="@dimen/dp_18"
+            android:layout_height="@dimen/dp_18"
+            android:visibility="gone"
+            android:layout_toLeftOf="@id/search_btn"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_10"
+            android:src="@mipmap/remove"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/base_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

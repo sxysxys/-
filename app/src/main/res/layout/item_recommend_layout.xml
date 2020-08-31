@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="@dimen/dp_10"
+        android:background="@drawable/shape_recommend_item"
+        android:layout_height="@dimen/dp_4" />
+
+    <TextView
+        android:id="@+id/text_recommend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_4"
+        android:textColor="@color/colorPrimary"
+        android:text="推荐"/>
+
+    <View
+        android:layout_width="@dimen/dp_10"
+        android:background="@drawable/shape_recommend_item"
+        android:layout_height="@dimen/dp_4" />
+
+
+
+</LinearLayout>

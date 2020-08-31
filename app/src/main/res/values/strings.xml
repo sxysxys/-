@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">我爱领劵</string>
+    <string name="text_home">首页</string>
+    <string name="text_selected">精选</string>
+    <string name="text_red_packet">特惠</string>
+    <string name="text_search">搜索</string>
+    <string name="net_error_string">网络错误，请点击重试</string>
+    <string name="goods_off_price_text">省%1$d元</string>
+    <string name="goods_original_text">￥%1$s</string>
+    <string name="goods_final_text">￥%1$.2f</string>
+    <string name="goods_sell_text">%1$d人已购买</string>
+    <string name="text_tao">淘口令</string>
+    <string name="text_get_text">领劵</string>
+    <string name="loading">玩命加载中...</string>
+    <string name="text_categories">精选宝贝</string>
+    <string name="text_on_sell_title">特惠宝贝</string>
+    <string name="search_text_cover">搜索优惠券</string>
+    <string name="search_histories">搜索历史</string>
+    <string name="hot_search_text">热门搜索</string>
+</resources>

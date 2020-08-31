@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    声明自定义控件的属性-->
+    <declare-styleable name="FlowTextStyle">
+        <attr name="horsize" format="dimension"/>
+        <attr name="versize" format="dimension"/>
+    </declare-styleable>
+
+</resources>

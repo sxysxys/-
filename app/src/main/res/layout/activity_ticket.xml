@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/ticket_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/dp_10"
+            android:src="@mipmap/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_tao"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/dp_300"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_33"
+        android:layout_height="@dimen/dp_300">
+
+        <ImageView
+            android:id="@+id/img_ticket"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            />
+
+        <com.shen.shengeunion.ui.custom.LoadingView
+            android:id="@+id/loading_ticket_cover"
+            android:layout_width="@dimen/dp_33"
+            android:layout_height="@dimen/dp_33"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:id="@+id/ticket_load_retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="加载出错，请稍后再试.."
+            android:visibility="gone"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    
+    <EditText
+        android:id="@+id/text_tao_edit"
+        android:layout_width="@dimen/dp_244"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_30"
+        android:focusable="false"
+        android:gravity="center"
+        android:textColor="@color/color_tao"
+        android:background="@drawable/shape_ticket_code_box_bag"
+        />
+
+    <TextView
+        android:id="@+id/text_get_ticket"
+        android:layout_width="@dimen/dp_141"
+        android:layout_height="@dimen/dp_40"
+        android:gravity="center"
+        android:text="@string/text_get_text"
+        android:textColor="@color/white"
+        android:background="@drawable/shape_ticket_button_box_bag"
+        android:layout_marginTop="@dimen/dp_30"
+        android:textSize="18sp"
+        />
+
+</LinearLayout>
